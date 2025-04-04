@@ -22,7 +22,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index">
+            <a class="nav-link" href="index.php">
               <i class="menu-icon mdi mdi-television text-white"></i>
               <span class="menu-title text-white">แดชบอร์ด</span>
             </a>
