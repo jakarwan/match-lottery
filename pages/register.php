@@ -75,7 +75,7 @@ include '../config/config.php';
         if (mysqli_query($conn, $sql)) {
           // echo '<script>alert("สมัครสมาชิกเรียบร้อยแล้ว");</script>';
           echo '<script type="text/javascript">Swal.fire("สำเร็จ!","สมัครสมาชิกสำเร็จ!","success").then(function() {
-            window.location = "login";
+            window.location = "login.php";
         });</script>';
         } else {
         //   echo '<script type="text/javascript">Swal.fire("เกิดข้อผิดพลาด!","สมัครสมาชิกไม่สำเร็จ!","warning").then(function() {

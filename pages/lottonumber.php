@@ -335,7 +335,7 @@ CheckLogin();
 
                                         <td>
                                           <form action="lottonumber?save=complete" method="POST" id="submitSave">
-                                            <a class="btn btn-info text-end float-end" name="submitSave" href="JavaScript:window.location='lottonumber?match_id=<?php echo $row["match_id"]; ?>&lotto_id=<?php echo $row["lotto_id"]; ?>';">จัดเก็บ</a>
+                                            <a class="btn btn-info text-end float-end" name="submitSave" href="JavaScript:window.location='lottonumber.php?match_id=<?php echo $row["match_id"]; ?>&lotto_id=<?php echo $row["lotto_id"]; ?>';">จัดเก็บ</a>
                                           </form>
                                         </td>
 
@@ -360,7 +360,7 @@ CheckLogin();
                               echo $sqlLottoall;
                               $queryLottoall = $conn->query($sqlLottoall);
                               if ($query) {
-                                echo "<script>window.location.href = 'lottonumber';</script>";
+                                echo "<script>window.location.href = 'lottonumber.php';</script>";
                               }
                             }
                             ?>
@@ -448,7 +448,7 @@ CheckLogin();
         if (result.isConfirmed) {
           // window.location.href = 'lottonumber?mode=delete';
           setTimeout(function() {
-            window.location = 'lottonumber?mode=delete';
+            window.location = 'lottonumber.php?mode=delete';
           }, 1000);
           Swal.fire(
             'สำเร็จ!',

@@ -110,7 +110,7 @@ CheckLogin();
                                                 <div class="col-12 m-4">
                                                     <input name="delete" class="btn btn-danger" type="submit" value="ลบรายการที่เลือก">
                                                     <div class="mr-4 m-2 float-end text-end">
-                                                        <a class="btn btn-danger text-end float-end" name="submitDel" href="JavaScript:if(confirm('ต้องการลบข้อมูลหรือไม่?')==true){window.location='lottoall?mode=delete';}" type="button">ลบเลขทั้งหมด</a>
+                                                        <a class="btn btn-danger text-end float-end" name="submitDel" href="JavaScript:if(confirm('ต้องการลบข้อมูลหรือไม่?')==true){window.location='lottoall.php?mode=delete';}" type="button">ลบเลขทั้งหมด</a>
                                                     </div>
                                                 </div>
 
@@ -167,7 +167,7 @@ CheckLogin();
                                                                                 <label class="badge badge-danger"><?php echo $row["lotto_name"]; ?></label>
                                                                             </td>
 
-                                                                            <td><a class="btn btn-danger text-start" name="submitDel" href="JavaScript:if(confirm('ต้องการลบข้อมูลหรือไม่?')==true){window.location='lottoall?lotto_id=<?php echo $row["lotto_id"]; ?>'; window.location = 'lottoall';}">ลบ</a></td>
+                                                                            <td><a class="btn btn-danger text-start" name="submitDel" href="JavaScript:if(confirm('ต้องการลบข้อมูลหรือไม่?')==true){window.location='lottoall.php?lotto_id=<?php echo $row["lotto_id"]; ?>'; window.location = 'lottoall.php';}">ลบ</a></td>
 
                                                                         </tr>
 

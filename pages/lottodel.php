@@ -35,7 +35,7 @@ session_start();
         include 'navbar/navbar.php';
         if($_SESSION['status'] != 'Admin') {
             echo '<script type="text/javascript">Swal.fire("Error!","ไม่มีสิทธิ์เข้าใช้งานในหน้านี้","error").then(function() {
-                window.location = "lottonumber";
+                window.location = "lottonumber.php";
             });</script>';
         }
         ?>
@@ -140,11 +140,11 @@ session_start();
 
                                                     if (mysqli_query($conn, $sql)) {
                                                         echo '<script type="text/javascript">Swal.fire("สำเร็จ!","ลบข้อมูลสำเร็จแล้ว").then(function() {
-                                                            window.location = "lottodel";
+                                                            window.location = "lottodel.php";
                                                         });</script>';
                                                     } else {
                                                         echo '<script type="text/javascript">Swal.fire("เกิดข้อผิดพลาด!","ลบข้อมูลไม่สำเร็จ!","error").then(function() {
-                                                            window.location = "lottodel";
+                                                            window.location = "lottodel.php";
                                                         });</script>';
                                                     }
                                                 }

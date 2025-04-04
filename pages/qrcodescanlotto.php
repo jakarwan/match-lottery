@@ -366,7 +366,7 @@ CheckLogin();
       }).then((result) => {
         if (result.isConfirmed) {
           setTimeout(function() {
-            window.location.href = 'qrcodescanlotto?mode=delete';
+            window.location.href = 'qrcodescanlotto.php?mode=delete';
           }, 1000);
           Swal.fire(
             'สำเร็จ!',
@@ -376,7 +376,7 @@ CheckLogin();
         }
       }).then((response) => {
         setTimeout(function() {
-          window.location.href = 'qrcodescanlotto';
+          window.location.href = 'qrcodescanlotto.php';
         }, 1000);
       })
     }

@@ -95,7 +95,7 @@ session_start();
         }
         if ($_SESSION["isActive"] == 0) {
           echo '<script type="text/javascript">Swal.fire("Error!","เกิดข้อผิดพลาดกรุณาติดต่อแอดมินเพื่อใช้บริการ FB:Jakarwan Borkaew","error").then(function() {
-                window.location = "login";
+                window.location = "login.php";
             });</script>';
           exit;
           session_destroy();
@@ -106,7 +106,7 @@ session_start();
         } else {
           $_SESSION["pic"] = "../images/faces/face1.jpg";
         }
-        header('refresh: 0;index');
+        header('refresh: 0;index.php');
         // }
         //  else {
         //   echo '<script>alert("ชื่อผู้ใช้หรือรหัสผ่านผิดพลาด \nไม่สามารถเข้าระบบได้");</script>';

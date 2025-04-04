@@ -93,7 +93,7 @@ CheckLogin();
                                                     <div class="col-12 m-4">
                                                         <input name="delete" class="btn btn-danger m-2" type="submit" value="ลบรายการที่เลือก">
                                                         <div class="mr-4 m-2 float-end text-end">
-                                                            <a class="btn btn-danger text-end float-end" name="submitDel" href="JavaScript:if(confirm('ต้องการลบข้อมูลหรือไม่?')==true){window.location='lottomatchall?mode=delete';}" type="button">ลบเลขที่ตรงกันทั้งหมด</a>
+                                                            <a class="btn btn-danger text-end float-end" name="submitDel" href="JavaScript:if(confirm('ต้องการลบข้อมูลหรือไม่?')==true){window.location='lottomatchall.php?mode=delete';}" type="button">ลบเลขที่ตรงกันทั้งหมด</a>
                                                         </div>
                                                     </div>
 
@@ -160,7 +160,7 @@ CheckLogin();
                                                                             <?php
                                                                             if ($_SESSION['status'] == 'Admin') {
                                                                             ?>
-                                                                                <td><a class="btn btn-danger text-end float-end" name="submitDel" href="JavaScript:if(confirm('ต้องการลบข้อมูลหรือไม่?')==true){window.location='lottomatchall?match_id=<?php echo $row["match_id"]; ?>'; window.location.href = 'lottomatchall';}">ลบ</a></td>
+                                                                                <td><a class="btn btn-danger text-end float-end" name="submitDel" href="JavaScript:if(confirm('ต้องการลบข้อมูลหรือไม่?')==true){window.location='lottomatchall.php?match_id=<?php echo $row["match_id"]; ?>'; window.location.href = 'lottomatchall.php';}">ลบ</a></td>
                                                                             <?php
                                                                             }
                                                                             ?>

@@ -75,7 +75,7 @@ CheckLogin();
             $sql = "UPDATE users SET password = '" . $password . "',user_name = '" . $_POST["txtname"] . "',phone = '" . $_POST["txtphone"] . "',image = '".$pic."' WHERE user_id LIKE '" . $_POST["txtC_id"] . "'";
             if (mysqli_query($conn, $sql)) {
               echo '<script type="text/javascript">Swal.fire("สำเร็จ!","แก้ไขโปรไฟล์เรียบร้อยแล้ว!","success").then(function() {
-                window.location = "editprofile";
+                window.location = "editprofile.php";
             });</script>';
             } else {
               echo '<script type="text/javascript">Swal.fire("เกิดข้อผิดพลาด!","ไม่สามารถแก้ไขโปรไฟล์ได้!","error")</script>';
@@ -84,7 +84,7 @@ CheckLogin();
             $sql = "UPDATE users SET user_name = '" . $_POST["txtname"] . "',phone = '" . $_POST["txtphone"] . "',image = '".$pic."' WHERE user_id='" . $_POST["txtC_id"] . "'";
             if (mysqli_query($conn, $sql)) {
               echo '<script type="text/javascript">Swal.fire("สำเร็จ!","แก้ไขโปรไฟล์เรียบร้อยแล้ว!","success").then(function() {
-                window.location = "editprofile";
+                window.location = "editprofile.php";
             });</script>';
             } else {
               echo '<script type="text/javascript">Swal.fire("เกิดข้อผิดพลาด!","ไม่สามารถแก้ไขโปรไฟล์ได้!","error")</script>';

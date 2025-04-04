@@ -139,7 +139,7 @@ CheckLogin();
                                                                             <?php
                                                                             if ($_SESSION['status'] == 'Admin') {
                                                                             ?>
-                                                                                <td><a class="btn btn-danger text-end float-end" name="submitDel" href="JavaScript:if(confirm('ต้องการลบข้อมูลหรือไม่?')==true){window.location='lottocomplete?match_id=<?php echo $row["match_id"]; ?>'; window.location.href = 'lottocomplete';}">ลบ</a></td>
+                                                                                <td><a class="btn btn-danger text-end float-end" name="submitDel" href="JavaScript:if(confirm('ต้องการลบข้อมูลหรือไม่?')==true){window.location='lottocomplete.php?match_id=<?php echo $row["match_id"]; ?>'; window.location.href = 'lottocomplete.php';}">ลบ</a></td>
                                                                             <?php
                                                                             }
                                                                             ?>
@@ -147,7 +147,7 @@ CheckLogin();
                                                                             if ($_SESSION['status'] == 'Admin') {
                                                                             ?>
                                                                                 <!-- <form action="lottocomplete?save=complete" method="POST" id="submitSave"> -->
-                                                                                <td><a class="btn btn-warning text-end float-end" name="submitSave" href="JavaScript: window.location='lottocomplete?match_id=<?php echo $row["match_id"]; ?>&lotto_id=<?php echo $row["lotto_id"]; ?>';">ยกเลิกจัดเก็บ</a></td> <!-- window.location.href = 'lottocomplete'; -->
+                                                                                <td><a class="btn btn-warning text-end float-end" name="submitSave" href="JavaScript: window.location='lottocomplete.php?match_id=<?php echo $row["match_id"]; ?>&lotto_id=<?php echo $row["lotto_id"]; ?>';">ยกเลิกจัดเก็บ</a></td> <!-- window.location.href = 'lottocomplete'; -->
                                                                                 <!-- </form> -->
                                                                             <?php
                                                                             }
@@ -170,7 +170,7 @@ CheckLogin();
                                                                 // echo $sqlLottoall;
                                                                 $queryLottoall = $conn->query($sqlLottoall);
                                                                 if ($query) {
-                                                                    echo "<script>window.location.href = 'lottocomplete';</script>";
+                                                                    echo "<script>window.location.href = 'lottocomplete.php';</script>";
                                                                 }
                                                             }
                                                             ?>
