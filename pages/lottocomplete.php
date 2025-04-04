@@ -187,7 +187,7 @@ CheckLogin();
                                                                 }
                                                                 // if successful redirect to delete_multiple.php 
                                                                 if ($query) {
-                                                                    echo "<meta http-equiv=\"refresh\" content=\"0;URL=lottomatchall\">";
+                                                                    echo "<meta http-equiv=\"refresh\" content=\"0;URL=lottomatchall.php\">";
                                                                 }
                                                             }
                                                             ?>

@@ -273,7 +273,7 @@ CheckLogin();
                             $sql = "DELETE FROM lotto_match WHERE user_id='" . $_SESSION["userId"] . "' ";
                             $conn->query($sql);
                             if($query) {
-                              echo "<meta http-equiv=\"refresh\" content=\"0;URL=lottonumber\">";
+                              echo "<meta http-equiv=\"refresh\" content=\"0;URL=lottonumber.php\">";
                             }
                           }
                           ?>
