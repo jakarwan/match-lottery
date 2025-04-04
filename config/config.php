@@ -6,8 +6,8 @@
 // $dbname = "lnwtatk_ezlotto";
 date_default_timezone_set("Asia/Bangkok");
 $servername = "localhost";
-$username = "root";
-$password = "p58u-xwBtQXy_d&";
+$username = "basz";
+$password = "26153220.Bb";
 $dbname = "lotto";
 
 // Create connection
