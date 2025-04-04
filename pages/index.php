@@ -120,7 +120,7 @@ CheckLogin();
             </div>
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
               <div class="card card-statistics">
-                <a href="lottoall">
+                <a href="lottoall.php">
                   <div class="card-body">
                     <div class="clearfix">
                       <div class="float-left">
@@ -142,7 +142,7 @@ CheckLogin();
             </div>
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
               <div class="card card-statistics">
-                <a href="lottotoday">
+                <a href="lottotoday.php">
                   <div class="card-body">
                     <div class="clearfix">
                       <div class="float-left">
