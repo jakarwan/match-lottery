@@ -23,7 +23,7 @@ if (!$conn) {
 
 function CheckLogin(){
     if(!isset($_SESSION["status"])){
-        header("location: login");
+        header("location: login.php");
         exit;
     }
 }

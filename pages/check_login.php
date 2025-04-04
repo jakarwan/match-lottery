@@ -22,7 +22,7 @@
 			
 			if($objResult["status"] == "USER")
 			{
-				header("location:../index");
+				header("location:../index.php");
 			}
 			else
 			{
