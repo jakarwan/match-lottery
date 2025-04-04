@@ -76,7 +76,7 @@ CheckLogin();
                                     <div class="card bg-dark">
                                         <div class="card-body">
                                             <h4 class="text-white mb-4">ล็อตเตอรี่ที่ตรงกันทั้งหมด</h4>
-                                            <form class="forms-sample" action="lottomatchall" method="POST" id="submitDel" name="frmMain">
+                                            <form class="forms-sample" action="lottomatchall.php" method="POST" id="submitDel" name="frmMain">
 
                                                 <?php
                                                 $sql = "SELECT lotto_number.*, lotto_match.* FROM lotto_match 

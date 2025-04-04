@@ -51,7 +51,7 @@ CheckLogin();
                                     <div class="card">
                                         <div class="card-body">
                                             <h4 class="card-title">ค้นหาล็อตเตอรี่</h4>
-                                            <form class="forms-sample" action="lottosearch" method="get" id="submitSearch">
+                                            <form class="forms-sample" action="lottosearch.php" method="get" id="submitSearch">
                                                 <div class="row">
                                                     <div class="col-12">
 

@@ -77,7 +77,7 @@ CheckLogin();
                                     <div class="card bg-dark">
                                         <div class="card-body">
                                             <h4 class="text-white mb-4">ล็อตเตอรี่ทั้งหมด</h4>
-                                            <form class="forms-sample" action="lottoall" method="POST" id="submitDel" name="frmMain">
+                                            <form class="forms-sample" action="lottoall.php" method="POST" id="submitDel" name="frmMain">
 
                                                 <?php
                                                 $sql = "SELECT * FROM lotto_number WHERE lotto_number.user_id='" . $_SESSION["userId"] . "' AND is_active=0 ORDER BY lotto_id DESC LIMIT 1000 ";

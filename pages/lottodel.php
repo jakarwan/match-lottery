@@ -55,7 +55,7 @@ session_start();
                                     <div class="card bg-dark">
                                         <div class="card-body">
                                             <h4 class="text-white mb-4">เลือกลบล็อตเตอรี่</h4>
-                                            <form class="forms-sample" action="lottodel" method="get" id="submitSearch">
+                                            <form class="forms-sample" action="lottodel.php" method="get" id="submitSearch">
                                                 <div class="row">
                                                     <div class="col-12">
 

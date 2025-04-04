@@ -62,7 +62,7 @@ CheckLogin();
                       <!-- <p class="card-description">
                         Basic form layout
                       </p> -->
-                      <form class="forms-sample" action="qrcodescanlotto" method="post" id="lottosubmit">
+                      <form class="forms-sample" action="qrcodescanlotto.php" method="post" id="lottosubmit">
                         <div class="row">
                           <div class="col-12">
                             <div class="form-group">
@@ -232,7 +232,7 @@ CheckLogin();
                           <div class="mt-4 col-12 col-sm-6 col-md-9">
                             <span class="text-white">เลขตรงกันทั้งหมด </span><span class="badge badge-danger"> <?php echo $rowCount; ?></span>
                           </div>
-                          <form action="qrcodescanlotto?mode=delete" method="POST" id="submitDel">
+                          <form action="qrcodescanlotto.php?mode=delete" method="POST" id="submitDel">
                             <?php
                             if ($_SESSION['status'] == 'Admin') {
                             ?>

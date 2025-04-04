@@ -52,7 +52,7 @@ CheckLogin();
                                     <div class="card bg-dark">
                                         <div class="card-body">
                                             <h4 class="text-white mb-4">ล็อตเตอรี่วันนี้ทั้งหมด</h4>
-                                            <form class="forms-sample" action="lottomatchall" method="POST" id="submitDel">
+                                            <form class="forms-sample" action="lottomatchall.php" method="POST" id="submitDel">
 
                                                 <?php
                                                 $sql = "SELECT * FROM lotto_number WHERE date='" . date('Y-m-d') . "' AND lotto_number.user_id='" . $_SESSION["userId"] . "' ORDER BY lotto_id DESC ";

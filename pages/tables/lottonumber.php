@@ -66,7 +66,7 @@ CheckLogin();
                       <!-- <p class="card-description">
                         Basic form layout
                       </p> -->
-                      <form class="forms-sample" action="lottonumber" method="post" id="lottosubmit">
+                      <form class="forms-sample" action="lottonumber.php" method="post" id="lottosubmit">
                         <div class="row">
                           <div class="col-12">
                             <div class="form-group">
@@ -263,7 +263,7 @@ CheckLogin();
                                                                                                                   echo $rowCount;
                                                                                                                 } ?></span>
                           </div>
-                          <form action="lottonumber?mode=delete" method="POST" id="submitDel">
+                          <form action="lottonumber.php?mode=delete" method="POST" id="submitDel">
                             <div class="col-12 col-sm-6 col-md-3 float-end text-end">
                               <button class="btn btn-danger text-end float-end" name="submitDel" onclick="submitDelete()" type="button">ลบเลขที่ตรงกันทั้งหมด</button>
                             </div>
@@ -323,7 +323,7 @@ CheckLogin();
                                       ?>
 
                                         <td>
-                                          <form action="lottonumber?save=complete" method="POST" id="submitSave">
+                                          <form action="lottonumber.php?save=complete" method="POST" id="submitSave">
                                             <a class="btn btn-info text-end float-end" name="submitSave" href="JavaScript:window.location='lottonumber.php?match_id=<?php echo $row["match_id"]; ?>&lotto_id=<?php echo $row["lotto_id"]; ?>';">จัดเก็บ</a>
                                           </form>
                                         </td>
