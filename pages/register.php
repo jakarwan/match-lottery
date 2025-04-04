@@ -185,7 +185,7 @@ include '../config/config.php';
                 </div>
                 <div class="text-block text-center my-3">
                   <span class="text-small font-weight-semibold">พร้อมเข้าใช้งานระบบแล้ว ?</span>
-                  <a href="login" class="text-black text-small">เข้าสู่ระบบ</a>
+                  <a href="login.php" class="text-black text-small">เข้าสู่ระบบ</a>
                 </div>
 
               </div>

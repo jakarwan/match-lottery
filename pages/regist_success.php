@@ -17,7 +17,7 @@
 		
 		echo "Register Completed!<br>";		
 	
-		echo "<br> Go to <a href='login'>Login page</a>";
+		echo "<br> Go to <a href='login.php'>Login page</a>";
 		
 	}
 
@@ -55,7 +55,7 @@
             	<div class="form-group">
                   <div class="input-group">
                   	<div>Register Completed!<br><hr>
-						<a href='login'>Login page</a></div>
+						<a href='login.php'>Login page</a></div>
                     <div class="input-group-append">
                     </div>
                   </div>
