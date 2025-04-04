@@ -43,7 +43,7 @@
             if($_SESSION['status'] == 'Admin'){
           ?>
           <li class="nav-item">
-            <a class="nav-link" href="lottocomplete">
+            <a class="nav-link" href="lottocomplete.php">
               <i class="menu-icon mdi mdi-folder-multiple text-white"></i>
               <span class="menu-title text-white">จัดเก็บเลขลอตเตอรี่</span>
             </a>
