@@ -162,7 +162,7 @@
           <a class="dropdown-item">
             Check Inbox
           </a> -->
-          <a class="dropdown-item" href="logout">
+          <a class="dropdown-item" href="logout.php">
             ออกจากระบบ
           </a>
         </div>

@@ -70,7 +70,7 @@
             </a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="logout">
+            <a class="nav-link" href="logout.php">
               <i class="menu-icon mdi mdi-logout text-white"></i>
               <span class="menu-title text-white">ออกจากระบบ</span>
             </a>
