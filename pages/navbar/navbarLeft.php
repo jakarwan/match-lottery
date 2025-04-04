@@ -31,7 +31,7 @@
             if($_SESSION['status'] == 'Admin'){
           ?>
           <li class="nav-item">
-            <a class="nav-link" href="qrcodescanlotto">
+            <a class="nav-link" href="qrcodescanlotto.php">
               <i class="menu-icon mdi mdi-qrcode text-white"></i>
               <span class="menu-title text-white">สแกนคิวอาร์โค้ด</span>
             </a>
