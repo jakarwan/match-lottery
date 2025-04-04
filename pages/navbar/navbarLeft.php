@@ -16,7 +16,7 @@
                   </div>
                 </div>
               </div>
-              <a onclick="location.href='lottonumber'" class="btn btn-success btn-block text-white">คีย์ล็อตเตอรี่
+              <a onclick="location.href='lottonumber.php'" class="btn btn-success btn-block text-white">คีย์ล็อตเตอรี่
                 <i class="mdi mdi-plus"></i>
               </a>
             </div>
